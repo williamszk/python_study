@@ -51,6 +51,7 @@ class User(BaseModel):
 
 # user1 = User(username="user1", password="123456", age=20, score=0, email="my@mail.com")
 user1 = User(username="user1", password="12345678!hH", age=10, score=9.0)
+# user1 = User(username="user1", password=123, age=10, score=9.0)
 
 print(user1)
 print(user1.age)
